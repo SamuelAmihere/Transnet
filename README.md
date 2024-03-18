@@ -186,3 +186,12 @@ The travel time oscillates between 3.0 and 4.0 minutes.
 Similar to link AD, lower flow results in a travel time of 3.0 minutes, indicating smooth traffic conditions.
 As the flow increases, the travel time slightly increases to 4.0 minutes, suggesting some congestion but not as severe as on link AD.
 This indicates that while link EC is also sensitive to changes in flow, the congestion experienced is less pronounced compared to link AD.
+
+# Conclusion
+In this analysis of traffic flow and travel times within the network, we've identified key insights that shed light on the dynamics of traffic congestion and its impact on travel time reliability. By examining the equilibrium flow distribution and corresponding travel times on various links, we've gained valuable insights into the behavior of the transportation network.
+
+The findings reveal that certain links, such as AD and EC, are particularly sensitive to changes in flow, with increased traffic resulting in higher travel times. Link AD, in particular, exhibits significant congestion under heavier flow conditions, leading to a pronounced increase in travel time. On the other hand, while link EC also experiences congestion, it is relatively less severe compared to link AD.
+
+Understanding these dynamics is crucial for effective traffic management and infrastructure planning. By pinpointing congestion hotspots and identifying links that are prone to travel time variability, transportation authorities can devise targeted strategies to alleviate congestion, enhance traffic flow, and improve overall travel time reliability for commuters.
+
+Ultimately, this analysis underscores the importance of data-driven approaches in transportation planning and management. By leveraging insights derived from traffic flow data, policymakers and urban planners can make informed decisions to optimize transportation systems, enhance mobility, and ensure a smoother, more efficient travel experience for all.
