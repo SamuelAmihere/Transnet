@@ -99,7 +99,9 @@ for link, times in link_travel_times.items():
 # ylim to make the plot look better
 plt.ylim(-2, 15)
 plt.title("Convergence of Travel Times and Equilibrium Flow")
-plt.xlabel("Iteration")
-plt.ylabel("Travel Time")
+plt.xlabel("Iterations")
+plt.ylabel("Travel Time/Flow")
 plt.legend()
+# yticks to make the plot look better
+plt.yticks(range(-1, 15, 2))
 plt.show()
