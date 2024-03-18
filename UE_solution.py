@@ -84,8 +84,10 @@ print("link travel times:", link_travel_times)
 import matplotlib.pyplot as plt
 for link, times in link_travel_times.items():
     plt.plot(times, label=link)
-# plot the equilibrium flow
-plt.plot([equilibrium_flow[link] for link in equilibrium_flow], label="Equilibrium Flow", linestyle='--')
+    # plot the equilibrium flow
+    plt.axhline(y=equilibrium_flow[link], color='black', linestyle='--')
+    plt.text(0, equilibrium_flow[link], link, fontsize=12)
+    
 # ylim to make the plot look better
 plt.ylim(-2, 15)
 plt.title("Convergence of Travel Times and Equilibrium Flow")
