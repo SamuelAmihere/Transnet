@@ -137,6 +137,11 @@ Travel time on DE : 5.0
 Flow on EC : 10
 Travel time on EC : 4.0
 ```
+The travel time values provide insights into the efficiency of each link in terms of the time taken to traverse them.
+Links AB, AD, and EC have significant flow, each with 10 units, indicating substantial traffic volume.
+Links BC and DE have no flow, suggesting that travelers are not utilizing these routes in the equilibrium state.
+Links AB and EC have the lowest travel times, indicating efficient traffic flow.
+Links AD and DE have higher travel times, suggesting potential congestion or longer distances.
 
 ### Plot the convergence of travel times and equilibrium flow
 
@@ -153,3 +158,19 @@ plt.legend()
 plt.show()
 ```
 <img src="ue_1.png">
+
+- **Link AB:** The travel time remains constant at 3.0 minutes for all data points, indicating that the flow on this link does not affect its travel time significantly.
+- **Link AD:** The travel time alternates between 3.0 and 5.0 minutes. This suggests that as the flow on link AD increases, the travel time also increases, indicating potential congestion.
+
+The travel time alternates between 3.0 and 5.0 minutes.
+When the flow is lower, the travel time is 3.0 minutes, indicating relatively smooth traffic conditions.
+However, as the flow increases, the travel time increases to 5.0 minutes, suggesting congestion on this link.
+This variability in travel time indicates that link AD is sensitive to changes in flow, with higher flow leading to increased travel times due to potential congestion.
+- **Link BC:** The travel time stabilizes at 4.0 minutes for all data points, suggesting that the flow on this link does not vary significantly.
+- **Link DE:** The travel time remains constant at 5.0 minutes for all data points, indicating a consistent travel time irrespective of flow.
+- **Link EC:** The travel time oscillates between 3.0 and 4.0 minutes. This suggests that as the flow on link EC increases, the travel time may slightly increase, but not as significantly as on link AD.
+
+The travel time oscillates between 3.0 and 4.0 minutes.
+Similar to link AD, lower flow results in a travel time of 3.0 minutes, indicating smooth traffic conditions.
+As the flow increases, the travel time slightly increases to 4.0 minutes, suggesting some congestion but not as severe as on link AD.
+This indicates that while link EC is also sensitive to changes in flow, the congestion experienced is less pronounced compared to link AD.
