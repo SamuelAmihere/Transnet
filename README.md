@@ -95,7 +95,7 @@ parameters = {
 ```
 ### Create an instance of the transportation network
 
-[TransportationNetwork](https://github.com/SamuelAmihere/cross-work/blob/main/1-Semester2/Courses/VI/Projects/UE_solution.py)
+[TransportationNetwork](./UE_solution.py)
 ```
 network = TransportationNetwork(parameters)
 ```
@@ -107,7 +107,7 @@ tolerance = 0.01
 
 ### Find equilibrium flow
 
-[find_equilibrium_flow](https://github.com/SamuelAmihere/cross-work/blob/main/1-Semester2/Courses/VI/Projects/UE_solution.py)
+[find_equilibrium_flow](./UE_solution.py)
 ```
 equilibrium_flow, link_travel_times = find_equilibrium_flow(network, max_iterations, tolerance)
 ```
